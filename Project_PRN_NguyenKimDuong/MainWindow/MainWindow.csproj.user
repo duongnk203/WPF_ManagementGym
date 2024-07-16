@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Class\ClassAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Class\CreateClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Member\CreateMemberDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Member\MemberAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Trainer\CreateTraniner.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Trainer\TrainerAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Class\ClassAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Class\CreateClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login\Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Mainwindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Member\CreateMemberDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Member\MemberAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Trainer\CreateTraniner.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Trainer\TrainerAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

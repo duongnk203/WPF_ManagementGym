@@ -1,0 +1,16 @@
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
