@@ -11,6 +11,8 @@ using System.Windows.Shapes;
 using MainWindow.Trainer;
 using MainWindow.Member;
 using MainWindow.Class;
+using MainWindow.Registration;
+using MainWindow.Home;
 
 namespace MainWindow
 {
@@ -33,7 +35,7 @@ namespace MainWindow
                 switch (selectedTab.Header.ToString())
                 {
                     case "Home":
-                        //ContentFrame.Navigate(new Page2());
+                        ContentFrame.Navigate(new HomePage());
                         break;
                     case "Trainers":
                         ContentFrame.Navigate(new TrainerAdminPage());
@@ -44,8 +46,9 @@ namespace MainWindow
                     case "Classes":
                         ContentFrame.Navigate(new ClassAdminPage());
                         break;
-                    //case "Members":
-                    //    break;
+                    case "Registration":
+                        ContentFrame.Navigate(new RegistrationPage());
+                        break;
                 }
             }
         }

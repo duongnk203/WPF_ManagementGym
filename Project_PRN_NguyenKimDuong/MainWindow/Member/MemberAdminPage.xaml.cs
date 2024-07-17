@@ -250,5 +250,13 @@ namespace MainWindow.Member
             List<string> listStatus = ["Active", "Inactive"];
             cboStatus.ItemsSource = listStatus;
         }
+
+        private void cboMembership_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var membershipId = cboMembership.SelectedValue.ToString();
+            var membership = membershipService.GetMembership(int.Parse(membershipId));
+            txtPriceMembership.Text = membership.Price.ToString();
+
+        }
     }
 }

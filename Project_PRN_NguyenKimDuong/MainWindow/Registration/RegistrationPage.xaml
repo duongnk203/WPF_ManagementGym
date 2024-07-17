@@ -1,0 +1,96 @@
+﻿<Page x:Class="MainWindow.Registration.RegistrationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MainWindow.Registration"
+      mc:Ignorable="d" 
+      d:DesignHeight="502.8" d:DesignWidth="919.2"
+      Title="RegistrationPage">
+
+    <Grid Background="#FFD4DFEB" RenderTransformOrigin="0.489,0.715">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="259*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="209*"/>
+            <RowDefinition Height="22*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="29*"/>
+            <ColumnDefinition Width="108*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="42*"/>
+            <ColumnDefinition Width="106*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="104*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblInformationClassRegistration" Content="Infomation class registration" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Grid.Row="1" Grid.ColumnSpan="5" Margin="1,1,5,0" Grid.Column="1"/>
+        <DataGrid x:Name="dgListClassRegistration" Grid.Column="1" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=4}" Margin="11,257,10,22" Grid.ColumnSpan="9" SelectionChanged="dgListClassRegistration_SelectionChanged" Grid.RowSpan="4" />
+        <Label x:Name="lblMemberId" Content="Member ID" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Height="30" Width="144" Grid.Row="1" Grid.Column="1" FontSize="16" Grid.ColumnSpan="4"/>
+        <Label x:Name="lblListClassregistration" Content="List of classes registration" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Grid.Row="1" Margin="1,202,18,0" Grid.Column="1" Grid.ColumnSpan="4"/>
+        <Label x:Name="lblRegistraionId" Content="Registration ID" Margin="10,34,1,0" VerticalAlignment="Top" Height="32" Grid.Row="1" Grid.Column="1" FontSize="16" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="txtClassId" Visibility="Collapsed" Margin="0,0,0,259" Grid.RowSpan="2"/>
+        <TextBox x:Name="txtRegistrationId" Grid.Column="3" Margin="9,34,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Grid.ColumnSpan="5"/>
+        <Label x:Name="lblClassId" Content="Class Id" Margin="10,62,1,0" VerticalAlignment="Top" Height="27" Grid.Row="1" Grid.Column="1" FontSize="16" Grid.ColumnSpan="3"/>
+        <Button x:Name="btnCreateClassRegistration" Grid.Column="1" Content="Create Registration" Margin="29,183,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Grid.ColumnSpan="2" Click="btnCreateClassRegistration_Click" />
+        <Button x:Name="btnUpdateCreateRegistration" Grid.Column="3" Content="Update Registration" Margin="9,183,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" RenderTransformOrigin="-0.897,3.622" Grid.ColumnSpan="2" Click="btnUpdateCreateRegistration_Click" />
+        <Button x:Name="btnDeleteClassRegistration" Grid.Column="5" Content="Delete Registration" Margin="11,183,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Grid.ColumnSpan="4" Click="btnDeleteClassRegistration_Click" />
+        <Label x:Name="lblRegistrationDate" Content="Registraion Date" Margin="10,116,1,112" Grid.Row="1" Grid.Column="1" FontSize="16" Grid.ColumnSpan="3"/>
+        <ComboBox x:Name="cboClass" Grid.Column="3" Margin="9,64,0,0" Grid.Row="1" VerticalAlignment="Top" Height="22" Grid.ColumnSpan="5">
+            <CheckBox Content="CheckBox"/>
+            <CheckBox Content="CheckBox"/>
+        </ComboBox>
+        <Label x:Name="lblInformationPayment_Copy" Content="Infomation payment" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Width="207" Grid.Row="1" Margin="2,2,0,0" Grid.Column="10" Grid.ColumnSpan="4"/>
+        <DataGrid x:Name="dgListPayment" Grid.Column="10" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=4}" Margin="13,257,0,22" Grid.ColumnSpan="9" SelectionChanged="dgListPayment_SelectionChanged" Grid.RowSpan="4" />
+        <Label x:Name="lblAmount" Content="Amount" HorizontalAlignment="Left" Margin="13,86,0,0" VerticalAlignment="Top" Height="30" Width="144" Grid.Row="1" Grid.Column="10" FontSize="16" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblListPayment" Content="List of payment" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Grid.Row="1" Margin="3,203,0,0" Grid.Column="10" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblPaymentId_Copy" Content="Payment ID" HorizontalAlignment="Left" Margin="13,31,0,0" VerticalAlignment="Top" Height="32" Width="110" Grid.Row="1" Grid.Column="10" FontSize="16" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtPaymentId" Grid.Column="11" Margin="106,35,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Grid.ColumnSpan="6"/>
+        <TextBox x:Name="txtAmount" Grid.Column="11" Margin="106,92,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" IsReadOnly="True" Grid.ColumnSpan="6"/>
+        <Label x:Name="lblMemberID_Copy" Content="Member Id" Margin="14,60,13,0" VerticalAlignment="Top" Height="27" Grid.Row="1" Grid.Column="10" FontSize="16" Grid.ColumnSpan="3"/>
+        <Button x:Name="btnCreatePayment" Grid.Column="10" Content="Create Payment" Margin="42,184,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Grid.ColumnSpan="2" Click="btnCreatePayment_Click" />
+        <Button x:Name="btnUpdatePayment" Visibility="Hidden" Grid.Column="12" Content="Update Payment" Margin="16,183,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Grid.ColumnSpan="2" RenderTransformOrigin="0.481,0.51" />
+        <Button x:Name="btnDeletePayment" Visibility="Hidden" Grid.Column="14" Content="Delete Payment" Margin="15,182,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Grid.ColumnSpan="4" />
+        <Label x:Name="lblPaymentDate_Copy" Content="Payment Date" Margin="13,116,9,0" VerticalAlignment="Top" Height="31" Grid.Row="1" Grid.Column="10" FontSize="16" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblPaymentMethod" Content="Payment Method" Margin="13,147,15,0" VerticalAlignment="Top" Height="31" Grid.Row="1" Grid.Column="10" FontSize="16" Grid.ColumnSpan="3"/>
+        <ComboBox x:Name="cboPaymentMethod" Grid.Column="11" Margin="106,154,0,0" Grid.Row="1" VerticalAlignment="Top" Height="22" Grid.ColumnSpan="6">
+            <CheckBox Content="CheckBox"/>
+            <CheckBox Content="CheckBox"/>
+        </ComboBox>
+        <ComboBox x:Name="cboMemberId" Grid.Column="11" Margin="106,65,0,0" Grid.Row="1" VerticalAlignment="Top" Height="22" Grid.ColumnSpan="6">
+            <CheckBox Content="CheckBox"/>
+            <CheckBox Content="CheckBox"/>
+        </ComboBox>
+        <DatePicker x:Name="dpPaymentDate" Grid.Column="11" Margin="106,123,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Grid.ColumnSpan="6"/>
+        <DatePicker x:Name="dpRegegistraionDate" Grid.Column="3" Margin="9,121,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Grid.ColumnSpan="5"/>
+        <ComboBox x:Name="cboMember" Grid.Column="3" Margin="9,92,0,0" Grid.Row="1" VerticalAlignment="Top" Height="22" Grid.ColumnSpan="5">
+            <CheckBox Content="CheckBox"/>
+            <CheckBox Content="CheckBox"/>
+        </ComboBox>
+        <Button x:Name="btnSearchRegsitration" Grid.Column="5" Content="Search" Margin="11,236,0,0" Grid.Row="1" VerticalAlignment="Top" Height="21" Grid.ColumnSpan="3" Click="btnSearchRegsitration_Click" />
+        <TextBox x:Name="txtSearchRegistration" Grid.Column="2" Margin="108,237,0,0" Grid.Row="1" TextWrapping="Wrap" Grid.ColumnSpan="3" Height="21" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboSearchRegistration" Grid.Column="1" Margin="15,235,0,0" Grid.Row="1" Grid.ColumnSpan="2" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="106">
+            <CheckBox Content="CheckBox"/>
+            <CheckBox Content="CheckBox"/>
+        </ComboBox>
+        <TextBox x:Name="txtSearchMemberId" Grid.Column="12" Margin="16,232,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnSearchPayment" Grid.Column="14" Content="Search" Margin="15,234,0,0" Grid.Row="1" Grid.ColumnSpan="3" Height="23" VerticalAlignment="Top" Click="btnSearchPayment_Click" />
+        <Label x:Name="lblSearchMemberID" Content="Search Member ID" Margin="14,230,0,1" Grid.Row="1" Grid.Column="10" FontSize="16" Grid.ColumnSpan="3"/>
+        <Button x:Name="btnReset" Grid.Column="8" Content="Reset" Margin="10,236,0,0" Grid.Row="1" VerticalAlignment="Top" Height="21" Click="btnReset_Click" />
+        <Button x:Name="btnResetPayment" Grid.Column="17" Content="Reset" Margin="10,236,0,0" Grid.Row="1" VerticalAlignment="Top" Height="21" Click="btnResetPayment_Click" />
+    </Grid>
+</Page>

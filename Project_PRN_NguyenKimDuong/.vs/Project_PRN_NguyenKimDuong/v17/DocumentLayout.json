@@ -3,84 +3,28 @@
   "WorkspaceRootPath": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\businessobjects\\models\\memberdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\memberdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\member\\memberadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\member\\memberadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\class\\createclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\class\\createclass.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\validation\\validationinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\validation\\validationinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\member\\memberadminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\member\\memberadminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\member\\creatememberdetail.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\member\\creatememberdetail.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\member\\creatememberdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\member\\creatememberdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\class\\classadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\class\\classadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\class\\classadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\class\\classadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\businessobjects\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\businessobjects\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\businessobjects\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B9A562-32DE-4F6F-A94B-AEAC5C1FBD7D}|Repositories\\Repositories.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\repositories\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B9A562-32DE-4F6F-A94B-AEAC5C1FBD7D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C29BD64-E89A-4B22-8273-B97B9E033130}|DataAccessLayer\\DataAccessLayer.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\dataaccesslayer\\classdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C29BD64-E89A-4B22-8273-B97B9E033130}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\classdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\trainer\\createtraniner.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\trainer\\createtraniner.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\home\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\home\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\trainer\\traineradminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\trainer\\traineradminpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\class\\classadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\class\\classadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\registration\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\registration\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\mainwindow\\registration\\registrationpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A955E7DA-9C97-4A6C-9B62-54BA9764E089}|MainWindow\\MainWindow.csproj|solutionrelative:mainwindow\\registration\\registrationpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\businessobjects\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37180F5-1BC8-441E-AC6E-168C4227B126}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C29BD64-E89A-4B22-8273-B97B9E033130}|DataAccessLayer\\DataAccessLayer.csproj|d:\\software_engineering\\ky_5\\prn212\\project\\wpf_project_managementgym\\wpf_managementgym\\project_prn_nguyenkimduong\\dataaccesslayer\\classregistrationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C29BD64-E89A-4B22-8273-B97B9E033130}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\classregistrationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,256 +37,82 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Payment.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\Payment.cs",
-              "RelativeToolTip": "BusinessObjects\\Models\\Payment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:01:41.726Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MemberDetail.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\MemberDetail.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Models\\MemberDetail.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\MemberDetail.cs",
-              "RelativeToolTip": "BusinessObjects\\Models\\MemberDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:22:22.015Z",
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Home\\HomePage.xaml",
+              "RelativeDocumentMoniker": "MainWindow\\Home\\HomePage.xaml",
+              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Home\\HomePage.xaml",
+              "RelativeToolTip": "MainWindow\\Home\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T18:47:11.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateClass.xaml",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Class\\CreateClass.xaml",
-              "RelativeDocumentMoniker": "MainWindow\\Class\\CreateClass.xaml",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Class\\CreateClass.xaml",
-              "RelativeToolTip": "MainWindow\\Class\\CreateClass.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T07:04:08.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MemberAdminPage.xaml",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Member\\MemberAdminPage.xaml",
-              "RelativeDocumentMoniker": "MainWindow\\Member\\MemberAdminPage.xaml",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Member\\MemberAdminPage.xaml",
-              "RelativeToolTip": "MainWindow\\Member\\MemberAdminPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T01:05:03.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Trainer.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\Trainer.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Trainer.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\Trainer.cs",
-              "RelativeToolTip": "BusinessObjects\\Models\\Trainer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:00:37.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Class.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\Class.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Models\\Class.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\Class.cs",
-              "RelativeToolTip": "BusinessObjects\\Models\\Class.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:00:50.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MemberAdminPage.xaml.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Member\\MemberAdminPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow\\Member\\MemberAdminPage.xaml.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Member\\MemberAdminPage.xaml.cs",
-              "RelativeToolTip": "MainWindow\\Member\\MemberAdminPage.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAswEEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T01:16:53.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ValidationInput.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Validation\\ValidationInput.cs",
-              "RelativeDocumentMoniker": "MainWindow\\Validation\\ValidationInput.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Validation\\ValidationInput.cs",
-              "RelativeToolTip": "MainWindow\\Validation\\ValidationInput.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:18:15.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateMemberDetail.xaml.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Member\\CreateMemberDetail.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow\\Member\\CreateMemberDetail.xaml.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Member\\CreateMemberDetail.xaml.cs",
-              "RelativeToolTip": "MainWindow\\Member\\CreateMemberDetail.xaml.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAYwG4AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:15:13.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateMemberDetail.xaml",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Member\\CreateMemberDetail.xaml",
-              "RelativeDocumentMoniker": "MainWindow\\Member\\CreateMemberDetail.xaml",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Member\\CreateMemberDetail.xaml",
-              "RelativeToolTip": "MainWindow\\Member\\CreateMemberDetail.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T07:05:40.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClassAdminPage.xaml.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Class\\ClassAdminPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow\\Class\\ClassAdminPage.xaml.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Class\\ClassAdminPage.xaml.cs",
-              "RelativeToolTip": "MainWindow\\Class\\ClassAdminPage.xaml.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAD4v2MAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T06:25:56.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IClassRepository.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\Repositories\\IClassRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IClassRepository.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\Repositories\\IClassRepository.cs",
-              "RelativeToolTip": "Repositories\\IClassRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T06:51:04.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ClassAdminPage.xaml",
               "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Class\\ClassAdminPage.xaml",
               "RelativeDocumentMoniker": "MainWindow\\Class\\ClassAdminPage.xaml",
               "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Class\\ClassAdminPage.xaml",
               "RelativeToolTip": "MainWindow\\Class\\ClassAdminPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T06:26:00.659Z",
+              "WhenOpened": "2024-07-17T18:46:36.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClassDAO.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\DataAccessLayer\\ClassDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\ClassDAO.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\DataAccessLayer\\ClassDAO.cs",
-              "RelativeToolTip": "DataAccessLayer\\ClassDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAhAAAA",
+              "DocumentIndex": 5,
+              "Title": "ClassRegistrationDAO.cs",
+              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\DataAccessLayer\\ClassRegistrationDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\ClassRegistrationDAO.cs",
+              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\DataAccessLayer\\ClassRegistrationDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\ClassRegistrationDAO.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAA7wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T06:43:29.546Z",
+              "WhenOpened": "2024-07-17T18:37:30.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateTraniner.xaml",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Trainer\\CreateTraniner.xaml",
-              "RelativeDocumentMoniker": "MainWindow\\Trainer\\CreateTraniner.xaml",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Trainer\\CreateTraniner.xaml",
-              "RelativeToolTip": "MainWindow\\Trainer\\CreateTraniner.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T01:54:10.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\App.xaml",
-              "RelativeDocumentMoniker": "MainWindow\\App.xaml",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\App.xaml",
-              "RelativeToolTip": "MainWindow\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T06:17:32.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\User.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Models\\User.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\BusinessObjects\\Models\\User.cs",
-              "RelativeToolTip": "BusinessObjects\\Models\\User.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA5wAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Registration\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow\\Registration\\RegistrationPage.xaml.cs",
+              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Registration\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "MainWindow\\Registration\\RegistrationPage.xaml.cs",
+              "ViewState": "AQIAACkBAAAAAAAAAAAlwCoBAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T06:15:15.407Z",
+              "WhenOpened": "2024-07-17T15:25:28.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TrainerAdminPage.xaml.cs",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Trainer\\TrainerAdminPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow\\Trainer\\TrainerAdminPage.xaml.cs",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Trainer\\TrainerAdminPage.xaml.cs",
-              "RelativeToolTip": "MainWindow\\Trainer\\TrainerAdminPage.xaml.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAswCsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T01:39:31.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Mainwindow.xaml",
-              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Mainwindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow\\Mainwindow.xaml",
-              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Mainwindow.xaml",
-              "RelativeToolTip": "MainWindow\\Mainwindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T01:29:54.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "Mainwindow.cs",
               "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Mainwindow.cs",
               "RelativeDocumentMoniker": "MainWindow\\Mainwindow.cs",
               "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Mainwindow.cs",
               "RelativeToolTip": "MainWindow\\Mainwindow.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCsAAAAjAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwCUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T01:30:01.946Z",
+              "WhenOpened": "2024-07-17T12:49:48.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Registration\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "MainWindow\\Registration\\RegistrationPage.xaml",
+              "ToolTip": "D:\\Software_engineering\\KY_5\\PRN212\\Project\\WPF_Project_ManagementGym\\WPF_ManagementGym\\Project_PRN_NguyenKimDuong\\MainWindow\\Registration\\RegistrationPage.xaml",
+              "RelativeToolTip": "MainWindow\\Registration\\RegistrationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T15:25:18.409Z",
               "EditorCaption": ""
             }
           ]

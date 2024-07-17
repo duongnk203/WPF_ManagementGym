@@ -13,11 +13,15 @@ public partial class Class
 
     public int TrainerId { get; set; }
 
-    public DateTime Schedule { get; set; }
+    public int ScheduleId { get; set; }
 
-    public bool? Status { get; set; }
+    public bool Status { get; set; }
+
+    public int Number { get; set; }
 
     public virtual ICollection<ClassRegistration> ClassRegistrations { get; set; } = new List<ClassRegistration>();
+
+    public virtual Schedule Schedule { get; set; } = null!;
 
     public virtual Trainer Trainer { get; set; } = null!;
 }

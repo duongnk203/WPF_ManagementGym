@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:MainWindow.Class"
       mc:Ignorable="d" 
-            d:DesignHeight="450" d:DesignWidth="800"
+            d:DesignHeight="502.8" d:DesignWidth="919.2"
 Title="ClassAdminPage">
 
     <Grid Background="#FFD4DFEB" RenderTransformOrigin="0.489,0.715">
@@ -14,37 +14,43 @@ Title="ClassAdminPage">
             <RowDefinition Height="49*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="16*"/>
-            <ColumnDefinition Width="144*"/>
-            <ColumnDefinition Width="168*"/>
-            <ColumnDefinition Width="107*"/>
-            <ColumnDefinition Width="178*"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="144*"/>
-            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="146*"/>
+            <ColumnDefinition Width="190*"/>
+            <ColumnDefinition Width="34*"/>
+            <ColumnDefinition Width="92*"/>
+            <ColumnDefinition Width="224*"/>
+            <ColumnDefinition Width="34*"/>
+            <ColumnDefinition Width="165*"/>
+            <ColumnDefinition Width="15*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="lblClassInfo" Content="Infomation Classes" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Width="207" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,1,0,0"/>
-        <DataGrid x:Name="dgListClasses" Grid.Column="1" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=4}" Margin="10,241,0,16" Grid.ColumnSpan="4" SelectionChanged="dgListClasses_SelectionChanged" />
+        <Label x:Name="lblClassInfo" Content="Infomation Classes" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Width="207" Grid.Row="1" Grid.ColumnSpan="3" Margin="18,1,0,0"/>
+        <DataGrid x:Name="dgListClasses" Grid.Column="1" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=4}" Margin="10,241,34,16" Grid.ColumnSpan="6" SelectionChanged="dgListClasses_SelectionChanged" />
         <Label x:Name="lblClassDescription" Content="Description" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Height="30" Width="144" Grid.Row="1" Grid.Column="1" FontSize="16" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblListClasses" Content="List of classes" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Grid.Row="1" Margin="0,202,12,0" Grid.Column="1"/>
+        <Label x:Name="lblListClasses" Content="List of classes" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Grid.Row="1" Margin="18,202,12,0" Grid.ColumnSpan="2"/>
         <Label x:Name="lblFullName" Content="Class Name" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Height="32" Width="110" Grid.Row="1" Grid.Column="1" FontSize="16"/>
-        <TextBox x:Name="txtMemberId" Visibility="Collapsed"/>
-        <TextBox x:Name="txtClassName" Grid.Column="2" HorizontalAlignment="Center" Margin="0,34,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25"/>
-        <TextBox x:Name="txtDescription" Grid.Column="2" HorizontalAlignment="Center" Margin="0,91,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25" IsReadOnly="True"/>
+        <TextBox x:Name="txtClassId" Visibility="Collapsed"/>
+        <TextBox x:Name="txtClassName" Grid.Column="1" Margin="146,34,34,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="txtDescription" Grid.Column="1" Margin="146,91,34,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" IsReadOnly="True" Grid.ColumnSpan="3"/>
         <Label x:Name="lblDob" Content="Schedule" Margin="11,62,0,0" VerticalAlignment="Top" Height="27" Grid.Row="1" Grid.Column="1" FontSize="16"/>
-        <DatePicker x:Name="dpSchedule" Grid.Column="2" HorizontalAlignment="Center" Margin="0,63,0,0" Grid.Row="1" VerticalAlignment="Top" Width="168" Height="25" FontSize="11" VerticalContentAlignment="Center"/>
-        <Button x:Name="btnCreateClass" Grid.Column="6" Content="Create Member" HorizontalAlignment="Center" Margin="0,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Height="25" Click="btnCreateClass_Click" />
-        <Button x:Name="btnUpdateClass" Grid.Column="6" Content="Update Member" HorizontalAlignment="Center" Margin="0,76,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Height="25" />
-        <Button x:Name="btnDeleteMember" Grid.Column="6" Content="Delete Member" HorizontalAlignment="Center" Margin="0,117,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Height="26" />
-        <Label x:Name="lblClassStatus" Content="Status" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Height="31" Width="128" Grid.Row="1" Grid.Column="1" FontSize="16"/>
-        <ComboBox x:Name="cboStatus" Grid.Column="2" HorizontalAlignment="Center" Margin="0,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="168">
+        <Button x:Name="btnCreateClass" Grid.Column="7" Content="Create Member" HorizontalAlignment="Center" Margin="0,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Height="25" Click="btnCreateClass_Click" />
+        <Button x:Name="btnUpdateClass" Grid.Column="7" Content="Update Member" HorizontalAlignment="Center" Margin="0,76,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Height="25" Click="btnUpdateClass_Click" />
+        <Button x:Name="btnDeleteClass" Grid.Column="7" Content="Delete Class" HorizontalAlignment="Center" Margin="0,117,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Height="26" Click="btnDeleteClass_Click" />
+        <Label x:Name="lblClassStatus" Content="Status" Margin="10,116,10,0" VerticalAlignment="Top" Height="31" Grid.Row="1" Grid.Column="1" FontSize="16"/>
+        <ComboBox x:Name="cboStatus" Grid.Column="1" Margin="146,121,34,0" Grid.Row="1" VerticalAlignment="Top" Height="22" Grid.ColumnSpan="3">
             <CheckBox Content="CheckBox"/>
             <CheckBox Content="CheckBox"/>
         </ComboBox>
-        <Label x:Name="lblTrainerId" Content="Trainer" HorizontalAlignment="Left" Margin="31,31,0,0" VerticalAlignment="Top" Height="31" Width="128" Grid.Row="1" Grid.Column="3" FontSize="16" Grid.ColumnSpan="2"/>
-        <ComboBox x:Name="cboTrainer" Grid.Column="4" HorizontalAlignment="Center" Margin="0,40,0,0" Grid.Row="1" VerticalAlignment="Top" Width="178">
+        <Label x:Name="lblTrainerId" Content="Trainer" Margin="0,31,188,0" VerticalAlignment="Top" Height="31" Grid.Row="1" Grid.Column="4" FontSize="16" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="cboTrainer" Grid.Column="5" Margin="0,40,34,0" Grid.Row="1" VerticalAlignment="Top" Height="22" Grid.ColumnSpan="2">
             <CheckBox Content="CheckBox"/>
             <CheckBox Content="CheckBox"/>
         </ComboBox>
+        <ComboBox x:Name="cboSchedule" Grid.Column="1" Margin="146,64,34,0" Grid.Row="1" VerticalAlignment="Top" Height="22" Grid.ColumnSpan="3">
+            <CheckBox Content="CheckBox"/>
+            <CheckBox Content="CheckBox"/>
+        </ComboBox>
+        <Label x:Name="lblNumber" Content="Number" Margin="0,62,224,0" VerticalAlignment="Top" Height="31" Grid.Row="1" Grid.Column="4" FontSize="16" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtNumber" Grid.Column="5" Margin="0,68,34,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" IsReadOnly="True" Grid.ColumnSpan="2"/>
     </Grid>
 </Page>

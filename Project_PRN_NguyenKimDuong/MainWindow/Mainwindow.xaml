@@ -26,6 +26,9 @@
             <TabItem Header="Classes" FontSize="16" Width="100">
 
             </TabItem>
+            <TabItem Header="Registration" FontSize="16" Width="100">
+
+            </TabItem>
         </TabControl>
         <Frame Name="ContentFrame" NavigationUIVisibility="Hidden" Margin="0,31,0,0"/>
 

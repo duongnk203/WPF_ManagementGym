@@ -18,5 +18,12 @@ namespace Services
 
         public Class GetClassByClassId(int classId)
             => iClassRepository.GetClassByClassId(classId);
+        public void AddClass(Class classObj)
+            => iClassRepository.AddClass(classObj);
+        public void UpdateClass(Class classObj)
+            => iClassRepository.UpdateClass(classObj);
+
+        public void DeleteClass(int classId)
+            => iClassRepository.DeleteClass(classId);
     }
 }

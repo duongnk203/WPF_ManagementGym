@@ -13,7 +13,7 @@ public partial class MemberDetail
 
     public DateTime JoinDate { get; set; }
 
-    public bool? Status { get; set; }
+    public bool Status { get; set; }
 
     public virtual ICollection<ClassRegistration> ClassRegistrations { get; set; } = new List<ClassRegistration>();
 

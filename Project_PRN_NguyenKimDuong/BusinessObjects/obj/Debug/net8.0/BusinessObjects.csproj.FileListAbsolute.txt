@@ -1,6 +1,8 @@
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
@@ -9,7 +11,5 @@ D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_Manage
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
-D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll
-D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
-D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
 D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
+D:\Software_engineering\KY_5\PRN212\Project\WPF_Project_ManagementGym\WPF_ManagementGym\Project_PRN_NguyenKimDuong\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll

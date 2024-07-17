@@ -27,7 +27,7 @@
         <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="173,213,0,0" VerticalAlignment="Top" Width="168" Height="25"/>
         <Button x:Name="btnCreateMember" Content="Create" HorizontalAlignment="Left" Margin="39,377,0,0" Width="128" Height="27" VerticalAlignment="Top" Click="btnCreateMember_Click" />
         <Button x:Name="btnClose" Content="Cancel" HorizontalAlignment="Left" Margin="213,377,0,0" Width="128" Height="27" VerticalAlignment="Top" Click="btnClose_Click" />
-        <ComboBox x:Name="cboMembership" HorizontalAlignment="Left" Margin="173,278,0,0" VerticalAlignment="Top" Width="168"/>
+        <ComboBox x:Name="cboMembership" HorizontalAlignment="Left" Margin="173,278,0,0" VerticalAlignment="Top" Width="168" SelectionChanged="cboMembership_SelectionChanged"/>
         <Label x:Name="lblJoinDate" Content="Join Date" Margin="40,243,227,0" VerticalAlignment="Top" Height="27" FontSize="16"/>
         <DatePicker x:Name="dpJoinDate" HorizontalAlignment="Left" Margin="173,245,0,0" VerticalAlignment="Top" Width="168" Height="25" FontSize="11" VerticalContentAlignment="Center"/>
 

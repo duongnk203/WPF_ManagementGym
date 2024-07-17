@@ -61,7 +61,7 @@
             <CheckBox Content="CheckBox"/>
         </ComboBox>
         <DatePicker x:Name="dpJoinDate" Grid.Column="2" HorizontalAlignment="Center" Margin="0,92,0,0" Grid.Row="1" VerticalAlignment="Top" Width="168" Height="25" FontSize="11" VerticalContentAlignment="Center"/>
-        <ComboBox x:Name="cboMembership" Grid.Column="2" HorizontalAlignment="Center" Margin="0,122,0,0" Grid.Row="1" VerticalAlignment="Top" Width="168">
+        <ComboBox x:Name="cboMembership" Grid.Column="2" HorizontalAlignment="Center" Margin="0,122,0,0" Grid.Row="1" VerticalAlignment="Top" Width="168" SelectionChanged="cboMembership_SelectionChanged">
             <CheckBox Content="CheckBox"/>
             <CheckBox Content="CheckBox"/>
         </ComboBox>

@@ -13,7 +13,7 @@ public partial class Trainer
 
     public int ExperienceYears { get; set; }
 
-    public bool? Status { get; set; }
+    public bool Status { get; set; }
 
     public virtual ICollection<Class> Classes { get; set; } = new List<Class>();
 

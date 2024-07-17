@@ -77,7 +77,7 @@ namespace MainWindow.Login {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MainWindow;component/login/login.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MainWindow;V1.0.0.0;component/login/login.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Login\Login.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

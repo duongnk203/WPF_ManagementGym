@@ -30,5 +30,61 @@ namespace DataAccessLayer
             classSelected = context.Classes.Where(c => c.ClassId == classId).FirstOrDefault();
             return classSelected;
         }
+
+        private static bool IsExistClassByScheduleId(int scheduleId)
+        {
+            using var context = new GymManagementContext();
+            var classObj = context.Classes.FirstOrDefault(c => c.ScheduleId == scheduleId);
+            if (classObj != null)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static void AddClass(Class classObj)
+        {
+            using var context = new GymManagementContext();
+            try
+            {
+                if (IsExistClassByScheduleId(classObj.ScheduleId))
+                    throw new DataAccessException("Shedule has already class in the system!");
+                context.Classes.Add(classObj);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
+        }
+
+        public static void UpdateClass(Class classObj)
+        {
+            using var context = new GymManagementContext();
+            try
+            {
+                if (IsExistClassByScheduleId(classObj.ScheduleId))
+                    throw new DataAccessException("Shedule has already class in the system!");
+                context.Classes.Update(classObj);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public static void DeleteClass(int classId)
+        {
+            using var context = new GymManagementContext();
+            var classObj = context.Classes.FirstOrDefault(c => c.ClassId == classId);
+            if (classObj != null)
+            {
+                classObj.Status = false;
+                context.Classes.Update(classObj);
+                context.SaveChanges();
+            }
+        }
     }
 }

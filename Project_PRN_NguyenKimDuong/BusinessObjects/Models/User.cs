@@ -21,7 +21,7 @@ public partial class User
 
     public DateOnly Dob { get; set; }
 
-    public bool? Status { get; set; }
+    public bool Status { get; set; }
 
     public string Address { get; set; } = null!;
 

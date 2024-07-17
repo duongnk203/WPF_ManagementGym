@@ -162,5 +162,12 @@ namespace MainWindow.Member
         {
             this.Close();
         }
+
+        private void cboMembership_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var membershipId = cboMembership.SelectedValue.ToString();
+            var membership = membershipService.GetMembership(int.Parse(membershipId));
+            txtMemershipPrice.Text = membership.Price.ToString();
+        }
     }
 }

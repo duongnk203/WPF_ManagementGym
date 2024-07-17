@@ -5,31 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MainWindow.Class"
         mc:Ignorable="d"
-                Title="Create Class" Height="450" Width="380">
-    <Grid Background="#FFC6D8ED">
+                Title="Create Class" Height="423" Width="380">
+    <Grid Background="#FFC6D8ED" Margin="0,0,0,1">
         <Label Content="Create Class" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
-        <Label x:Name="lblClassName" Content="Username" HorizontalAlignment="Left" Margin="39,181,0,0" VerticalAlignment="Top" Height="27" Width="93" FontSize="16"/>
-        <Label x:Name="lblMembership" Content="Membership" HorizontalAlignment="Left" Margin="39,274,0,0" VerticalAlignment="Top" Height="31" Width="110" FontSize="16"/>
-        <Label x:Name="lblMembershipPrice" Content="MembershipPrice" HorizontalAlignment="Left" Margin="39,302,0,0" VerticalAlignment="Top" Height="30" Width="144" FontSize="16"/>
-        <Label x:Name="lblFullName" Content="FullName" HorizontalAlignment="Left" Margin="39,43,0,0" VerticalAlignment="Top" Height="32" Width="110" FontSize="16"/>
-        <Label x:Name="lblEmail" Content="Email" HorizontalAlignment="Left" Margin="39,99,0,0" VerticalAlignment="Top" Height="28" Width="110" FontSize="16"/>
-        <Label x:Name="lblPhone" Content="Phone" HorizontalAlignment="Left" Margin="39,127,0,0" VerticalAlignment="Top" Height="28" Width="110" FontSize="16"/>
-        <Label x:Name="lblAddress" Content="Address" HorizontalAlignment="Left" Margin="39,154,0,0" VerticalAlignment="Top" Height="28" Width="110" FontSize="16"/>
-        <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Margin="40,210,0,0" VerticalAlignment="Top" Height="31" Width="110" FontSize="16"/>
-        <TextBox x:Name="txtFullName" HorizontalAlignment="Left" Margin="173,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25"/>
-        <TextBox x:Name="txtMemershipPrice" HorizontalAlignment="Left" Margin="173,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25" IsReadOnly="True"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="173,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25"/>
-        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="173,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25"/>
-        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Margin="173,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25"/>
-        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Margin="173,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25"/>
-        <Label x:Name="lblDob" Content="Dob" Margin="40,71,227,0" VerticalAlignment="Top" Height="27" FontSize="16"/>
-        <DatePicker x:Name="dpDob" HorizontalAlignment="Left" Margin="173,73,0,0" VerticalAlignment="Top" Width="168" Height="25" FontSize="11" VerticalContentAlignment="Center"/>
-        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="173,213,0,0" VerticalAlignment="Top" Width="168" Height="25"/>
-        <Button x:Name="btnCreateMember" Content="Create" HorizontalAlignment="Left" Margin="39,377,0,0" Width="128" Height="27" VerticalAlignment="Top" />
-        <Button x:Name="btnClose" Content="Cancel" HorizontalAlignment="Left" Margin="213,377,0,0" Width="128" Height="27" VerticalAlignment="Top"/>
-        <ComboBox x:Name="cboMembership" HorizontalAlignment="Left" Margin="173,278,0,0" VerticalAlignment="Top" Width="168"/>
-        <Label x:Name="lblJoinDate" Content="Join Date" Margin="40,243,227,0" VerticalAlignment="Top" Height="27" FontSize="16"/>
-        <DatePicker x:Name="dpJoinDate" HorizontalAlignment="Left" Margin="173,245,0,0" VerticalAlignment="Top" Width="168" Height="25" FontSize="11" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblMembership" Content="Trainer" HorizontalAlignment="Left" Margin="39,216,0,0" VerticalAlignment="Top" Height="31" Width="110" FontSize="16"/>
+        <Label x:Name="lblTrainerName" Content="Trainer Name" HorizontalAlignment="Left" Margin="39,244,0,0" VerticalAlignment="Top" Height="30" Width="144" FontSize="16"/>
+        <Label x:Name="lblClassName1" Content="Class Name" HorizontalAlignment="Left" Margin="39,43,0,0" VerticalAlignment="Top" Height="32" Width="110" FontSize="16"/>
+        <TextBox x:Name="txtClassName" HorizontalAlignment="Left" Margin="173,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25"/>
+        <TextBox x:Name="txtTrainerName" HorizontalAlignment="Left" Margin="173,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25" IsReadOnly="True"/>
+        <Label x:Name="lblDescription" Content="Description" Margin="40,71,227,0" VerticalAlignment="Top" Height="27" FontSize="16"/>
+        <Button x:Name="btnCreateClass" Content="Create" HorizontalAlignment="Left" Margin="39,340,0,0" Width="128" Height="27" VerticalAlignment="Top" Click="btnCreateClass_Click" />
+        <Button x:Name="btnClose" Content="Cancel" HorizontalAlignment="Left" Margin="213,340,0,0" Width="128" Height="27" VerticalAlignment="Top" Click="btnClose_Click"/>
+        <ComboBox x:Name="cboTrainer" HorizontalAlignment="Left" Margin="173,222,0,0" VerticalAlignment="Top" Width="168" SelectionChanged="cboTrainer_SelectionChanged"/>
+        <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="173,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="112" VerticalScrollBarVisibility="Auto"/>
+        <Label x:Name="lblSchedule" Content="Schedule" Margin="40,188,227,0" VerticalAlignment="Top" Height="27" FontSize="16"/>
+        <ComboBox x:Name="cboSchedule" HorizontalAlignment="Left" Margin="173,195,0,0" VerticalAlignment="Top" Width="168"/>
+        <Label x:Name="lblNumber" Content="Trainer Name" HorizontalAlignment="Left" Margin="40,274,0,0" VerticalAlignment="Top" Height="30" Width="144" FontSize="16"/>
+        <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Margin="173,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="25" />
 
     </Grid>
 </Window>

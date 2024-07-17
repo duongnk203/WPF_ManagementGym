@@ -7,10 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ClassRegistration\CreateClassRegistration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Class\ClassAdminPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Class\CreateClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Home\HomePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Login\Login.xaml.cs">
@@ -22,6 +28,12 @@
     <Compile Update="Member\MemberAdminPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Payment\CreatePayment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Registration\RegistrationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Trainer\CreateTraniner.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -30,10 +42,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ClassRegistration\CreateClassRegistration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Class\ClassAdminPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Class\CreateClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Home\HomePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Login\Login.xaml">
@@ -46,6 +64,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Member\MemberAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Payment\CreatePayment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Registration\RegistrationPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Trainer\CreateTraniner.xaml">

@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using BusinessObjects;
-using BusinessObjects.Models;
 
-namespace DataAccessLayer;
+namespace BusinessObjects.Models;
 
 public partial class GymManagementContext : DbContext
 {
@@ -27,6 +25,8 @@ public partial class GymManagementContext : DbContext
 
     public virtual DbSet<Payment> Payments { get; set; }
 
+    public virtual DbSet<Schedule> Schedules { get; set; }
+
     public virtual DbSet<Trainer> Trainers { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
@@ -46,8 +46,13 @@ public partial class GymManagementContext : DbContext
             entity.Property(e => e.Description)
                 .HasMaxLength(255)
                 .IsUnicode(false);
-            entity.Property(e => e.Schedule).HasColumnType("datetime");
+            entity.Property(e => e.ScheduleId).HasColumnName("ScheduleID");
             entity.Property(e => e.TrainerId).HasColumnName("TrainerID");
+
+            entity.HasOne(d => d.Schedule).WithMany(p => p.Classes)
+                .HasForeignKey(d => d.ScheduleId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Classes_Schedule");
 
             entity.HasOne(d => d.Trainer).WithMany(p => p.Classes)
                 .HasForeignKey(d => d.TrainerId)
@@ -118,6 +123,16 @@ public partial class GymManagementContext : DbContext
                 .HasForeignKey(d => d.MemberId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Payments__Member__5535A963");
+        });
+
+        modelBuilder.Entity<Schedule>(entity =>
+        {
+            entity.ToTable("Schedule");
+
+            entity.Property(e => e.ScheduleId).HasColumnName("ScheduleID");
+            entity.Property(e => e.ScheduleName)
+                .HasMaxLength(50)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Trainer>(entity =>

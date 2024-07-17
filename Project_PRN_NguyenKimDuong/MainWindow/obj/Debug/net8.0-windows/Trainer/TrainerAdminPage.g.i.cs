@@ -285,7 +285,7 @@ namespace MainWindow.Trainer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MainWindow;component/trainer/traineradminpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MainWindow;V1.0.0.0;component/trainer/traineradminpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Trainer\TrainerAdminPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
